@@ -1,7 +1,6 @@
 const { Model, DataTypes} = require('sequelize')
 const bcrypt = require('bycrypt')
 const sequelize = require('../config/connection')
-const { truncate, stubFalse } = require('lodash')
 
 class User extends Model{}
 
